@@ -16,7 +16,130 @@
         }
     </style>
 </head>
-<body>
-    
+
+<body class="font-manrope ">
+
+    <!--Header Design-->
+    <header class="lg:mx-32">
+        <!--Nav Bar-->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li class="text-[#FF4240] font-bold"><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost font-bold text-2xl lg:text-4xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li class="text-[#FF4240] font-bold"><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn btn-primary bg-[#FF4240] border-0 w-auto text-white">Get Ticket</a>
+            </div>
+          </div>
+          <!--Carousel Section-->
+          <div class="carousel mx-4 lg:mx-auto">
+            <!--Slide - 1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="images/banner.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a> 
+                <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+              </div>
+            </div> 
+            
+            <!--Slide - 2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="images/banner2.webp" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a> 
+                <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+              </div>
+            </div> 
+            <!--Slide - 3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="images/equipment.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a> 
+                <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+              </div>
+            </div> 
+            <!--Slide - 4 -->
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="images/equipment2.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a> 
+                <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="p-4 flex justify-center lg:justify-end lg:relative z-10 lg:-mt-36 mr-6 w-full">
+            <div class=" bg-black text-[#FFF] p-3 rounded-xl w-full lg:w-1/2 ">
+                <h2 class="text-2xl font-extrabold">Meet all the heroes from the field</h2>
+                <p class="font-medium text-sm">Gathered in a single space, a dynamic convergence unfolds. <br>
+                    In this extraordinary assembly, innovation sparks, <br>
+                    and collective brilliance takes center stage.</p>
+            </div>
+          </div>
+    </header>
+
+    <main class="mx-4 lg:mx-32">
+        <!--Professional Hockeys Club-->
+        <section class="mt-16">
+            <h2 class="text-2xl lg:text-4xl font-extrabold text-center mb-4">Professional Hockeys Club</h2>
+            <p class="text-sm lg:text-base font-medium text-center mb-8">The professional hockey club, renowned for its storied history and competitive spirit,<br> embodies the essence of teamwork and skill on the ice</p>
+
+            <div>
+                <div>
+                    <div class="flex justify-center">
+                        <div class="radial-progress text-error" style="--value:87;" role="progressbar">87%</div>
+                    </div>
+                    <h2 class="text-xl font-semibold text-center">Prayer Facility</h2>
+                    <p class="font-normal text-center">Here the players can take prayer in the prayer time. <br> A mosque is n the club</p>
+                </div>
+                <div>
+                    <div class="flex justify-center">
+                        <div class="radial-progress text-accent" style="--value:95;" role="progressbar">95%</div>
+                    </div>
+                    <h2 class="text-xl font-semibold text-center">Experienced Coach</h2>
+                    <p class="font-normal text-center">We have many coaching stuffs.They are so much experiencd<br> Fitness Coach is also available</p>
+                </div>
+                <div>
+                    <div>
+                        
+                    </div>
+                    <h2 class="text-xl font-semibold text-center">Senior Player</h2>
+                    <p class="font-normal text-center">Senior Players are here also. <br> They help the juniors</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-info" style="--value:80;" role="progressbar">80%</div>
+                    <h2 class="text-xl font-semibold text-center">Training Ground</h2>
+                    <p class="font-normal text-center">We have three grounds here. <br>
+                    Each is open for them</p>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
